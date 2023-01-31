@@ -1,0 +1,129 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 60px;
+}
+
+caption{
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 128, 0, 0.384);
+    
+}
+
+caption > img{
+    width: 50px;
+}
+
+
+div{
+    margin: 10px;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+}
+
+td{
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+}
+thead > tr > th{
+    background-color: rgb(46, 156, 83);
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+
+.pontos{
+    font-weight: bold;
+}
+
+td.libertadores{
+    color: blue;
+}
+
+td.pre-libertadores{
+    color: rgb(0, 212, 219);
+}
+td.sul-americana{
+    color: green;
+}
+
+td.manteve{
+    color: grey;
+}
+
+td.rebaixados{
+    color: red;
+}
+
+img{
+width: 30px;
+margin-right: 10px;
+
+  
+}
+
+.times{
+    width: 250px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(228, 223, 223);
+}
+
+footer{
+    padding-top: 5px;
+    background-color: black;
+    width: auto;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.sdg-posi{
+    color: rgb(4, 116, 4);
+    font-weight: bold;
+}
+
+.sdg-neg{
+    color: red;
+    font-weight: bold;
+}
+
+.sdg-neut{
+    color: rgb(78, 76, 76);
+    font-weight: bold;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
